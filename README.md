@@ -26,7 +26,8 @@ git status 会看到提示 告诉你当前文件以你的远程版本库有文�
 
 10.将一个远程仓库克隆至本地子文件夹下命令：git clone git@要克隆文件的github地址/文件名.
 
-11.一般来说如果版本仓库中存在以中文名称命名的文件或者文件夹，很大几率使用命令 git status 下看到的中文名称是乱码的，在git仓库下写入以下命令解决
+11.一般来说如果版本仓库中存在以中文名称命名的文件或者文件夹，很大几率使用命令 git status 下看到的中文名称是乱码的，
+   在git仓库下写入以下命令解决
   i:在git项目目录中执行git config core.quotepath false就可以解决了.
   ii:也可以执行git config --global core.quotepath false进行全局设置.
 
